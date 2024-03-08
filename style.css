@@ -1,0 +1,49 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1 {
+    color: rgb(35, 221, 50);
+    font-family: sans-serif;
+    background-color: black;
+}
+h2 {
+    color: rgb(83, 211, 24);
+font-family: sans-serif;
+font-size: 20;
+background-color: black;
+border: 3px solid red;
+text-align: center;
+}
+section>h3{
+    font-family: sans-serif;
+color: rgb(12, 231, 129);
+background-color: black;
+text-align: center ;
+display: inline-block;
+
+}
+nav{
+    color: rgb(17, 206, 10);
+    background-color: black;
+    min-height:20px;
+    padding: 20px;
+    text-align: end;
+}
+a{
+    background-color: blue;
+    color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a[href="#"]{
+    background-color: yellowgreen;
+    color: black;
+}
+#imagen{
+    width: 2000px;
+    height: 500px;
+    text-align: center;
+}
