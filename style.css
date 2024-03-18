@@ -1,97 +1,125 @@
 *{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-} 
-body{
-    align-content: center;
-     width: 100vw;
-     height: 100vh;
-        }
-main{
-    color: rgb(12, 231, 129);
-            background-color: black;
-            min-width: 100%;
-            min-height: 100%;
-        }
-        footer{
-            color: rgb(83, 211, 24);
-font-family: sans-serif;
-font-size: 20;
-background-color: black;
-text-align: center;
-border-collapse: collapse;
-padding: 20px;
-margin: 0%;
-display: block;
-        }
-h1 {
-    color: rgb(35, 221, 50);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   } 
+   body{
+       align-content: center;
+        width: 100vw;
+        height: 100vh;
+           }
+           #logo1{
+            color: rgb(17, 206, 10);
+       background-color: white;
+       min-height:20px;
+       padding: 20px;
+       margin-inline: auto ;
+       width: 200;
+       max-width: 20%;
+           }
+   main{ height: 80vh;
+               background-image: url(./assets/fondo.webp);
+               background-size: cover;
+               background-position: center;
+               background-repeat: no-repeat;
+           }
+           footer{
+            padding: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            gap: 0.8rem;
+            background-color: bisque;
+           }
+           fieldset{
+            padding: 10px;
+           }
+           
+   h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: sans-serif;
-    background-color: black;
-    text-align: center;
-}
-h2 {
-    color: rgb(83, 211, 24);
-font-family: sans-serif;
-font-size: 20;
-background-color: black;
-border: 2px solid red;
-text-align: center;
-border-collapse: collapse;
-padding: 20px;
-margin: 0%;
-display: block;
-}
-h3{
- font-family: sans-serif;
-color: rgb(12, 231, 129);
-text-align: center;
-max-height: 50%;
-padding: 16px;
-object-fit: contain;
-max-width: 50%;
-vertical-align: top;
-margin-inline: auto ;
+   font-size: 50;
+   text-align: center;
+   border-collapse: collapse;
+   background-size: cover;
+               background-position: center;
+   } 
+   h2 {
+       color: rgb(83, 211, 24);
+   font-family: sans-serif;
+   font-size: 20;
+   text-align: center;
+   border-collapse: collapse;
+   padding: 20px;
+   margin: 0%;
+   display: block;
+   }
+   nav{
+       color: rgb(17, 206, 10);
+       background-color: black;
+       min-height:20px;
+       padding: 20px;
+       text-align: center;
+       margin-inline: auto ;
+       color: rgb(83, 211, 24);
+   font-family: sans-serif;
+   font-size: 20;
+   background-color: black;
+   border: 2px solid red;
+   text-align: center;
+   border-collapse: collapse;
+   padding: 20px;
+   margin: 0%;
+   display: block;
+   }
+   .card_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
 
-}
-nav{
-    color: rgb(17, 206, 10);
-    background-color: black;
-    min-height:20px;
-    padding: 20px;
-    text-align: end;
-    margin-inline: auto ;
-}
-a{
-    background-color: blue;
-    color: aqua;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-family: sans-serif;
-}
-a[href="#"]{
-    background-color: yellowgreen;
-    color: black;
-}
-#imagen{
-    min-width: 1500px;
-    height: 500px;
+   }
+   .card{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+   }
+   .card_img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 20px;
+   }
+   .main_section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0,8rem;
+   }
+   .main_nav{
     width: 100%;
-    margin: 0%;
-    min-height: 500px;
-    font-family: sans-serif;
-font-size: 20;
-background-color: black;
-text-align: center;
-border-collapse: collapse;
-padding: 20px;
-display: block;
-}
-    p{
-        color: greenyellow;
-        background-color: black;
-        text-align: center;
-        font-family: sans-serif;
-    }
+    display: flex;
+    justify-content: space-around;
+   }
+   a{
+       background-color: blue;
+       color: aqua;
+       padding: 10px;
+       border-radius: 200px;
+       text-decoration: none;
+       font-family: sans-serif;
+   }
+   a[href="#"]{
+       background-color: yellowgreen;
+       color: black;
+   }
+       p{
+           color: greenyellow;
+           background-color: black;
+           text-align: center;
+           font-family: sans-serif;
+       }
